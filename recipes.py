@@ -96,8 +96,23 @@ vindaloo_chicken_ingredients = [
 ]
 vindaloo_chicken = recipe("Vindaloo Chicken", vindaloo_chicken_ingredients)
 
+################################################################################
+# APR 10 - MEAL PREP 
+################################################################################
+
+split_pea_soup_ingredients = [
+	['split_peas', 2*454.], #2 lbs
+	['ham_steak', 2*500.], #2 steaks
+	['carrots', 500.],
+	['onions', 300.],
+	['celery', 500.],
+	['chicken_broth', 2*411.] #2 can
+]
+split_pea_soup = recipe("Split Pea Soup", split_pea_soup_ingredients)
+
 my_recipes = { 	1 : healthy_black_beans,
 		2 : pulled_tenderloin,
 		3 : coleslaw,
-		4 : vindaloo_chicken
-}
+		4 : vindaloo_chicken,
+		5 : split_pea_soup
+	}

@@ -13,7 +13,7 @@ def ingredients_dictionary(dictionary):
 
 print "Welcome to the Meal Planner!"
 print "\nWhat would you like to look up?"
-print " 1. Calories in an ingredients"
+print " 1. Calories in an ingredient"
 print " 2. Recipe information"
 
 uin = int(raw_input("\nChoice: "))

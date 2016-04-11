@@ -28,6 +28,7 @@ diced_tomatoes = food("diced tomatoes", 30., 126.)
 #  - dry
 brown_rice = food("brown rice", 600., 445.)
 brown_sugar = food("brown sugar", 15., 4.)
+split_peas = food("split peas", 110., 45.)
 
 my_pantry = {	1 : apple_cider_vinegar,
 		2 : bonesuckin_sauce,
@@ -39,7 +40,8 @@ my_pantry = {	1 : apple_cider_vinegar,
 		8 : chicken_broth,
 		9 : diced_tomatoes,
 		10 : brown_rice,
-		11 : brown_sugar
+		11 : brown_sugar,
+		12 : split_peas
 }
 
 ################################################################################
@@ -48,13 +50,15 @@ my_pantry = {	1 : apple_cider_vinegar,
 
 cabbage = food("cabbage", 22, 89.)
 carrots = food("carrots", 25., 61.)
+celery = food("celery", 16., 100.)
 garlic = food("garlic", 3., 4.)
 onions = food("onions", 20., 80.)
 
 my_vegetables = {	1: cabbage,
 			2: carrots,
-			3: garlic,
-			4: onions
+			3: celery,
+			4: garlic,
+			5: onions
 }
 
 ################################################################################
@@ -62,8 +66,10 @@ my_vegetables = {	1: cabbage,
 ################################################################################
 
 chicken_breast = food("raw chicken breast", 114., 100.)
+ham_steak = food("ham steak", 100., 84.)
 pork_tenderloin = food("pork tenderloin", 120., 112.)
 
 my_meats = { 	1 : chicken_breast,
-		2 : pork_tenderloin
+		2 : ham_steak,
+		3 : pork_tenderloin
 }
